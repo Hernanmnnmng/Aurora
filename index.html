@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Theater - Cinematic Experience</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    
+</head>
+<body>
+
+<div id="navbar-placeholder"></div>
+
+    <!-- Hero Section -->
+    <header class="hero min-h-screen flex items-center pt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-display font-bold text-white mb-6">
+                    Experience the <span class="text-aurora-accent">Magic</span> of Theater
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+                    Aurora Theater brings you unforgettable performances in an intimate setting. Book your tickets now for an extraordinary evening.
+                </p>
+                <div class="flex justify-center space-x-4">
+                    <button class="px-8 py-3 rounded-md text-lg font-medium text-white bg-aurora-primary hover:bg-aurora-accent transition shadow-lg">
+                        View Shows
+                    </button>
+                    <button class="px-8 py-3 rounded-md text-lg font-medium text-white border border-aurora-primary hover:bg-aurora-primary/20 transition">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Upcoming Shows -->
+    <section class="py-20 bg-aurora-dark">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-4">
+                    Upcoming <span class="text-aurora-accent">Performances</span>
+                </h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Discover our curated selection of shows for the upcoming season.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Show Card 1 -->
+                <div class="bg-aurora-light rounded-lg overflow-hidden shadow-xl card-hover">
+                    <div class="relative h-64">
+                        <img src="https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                             alt="Hamlet Performance" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-4">
+                            <span class="inline-block px-3 py-1 text-xs font-semibold text-white bg-aurora-primary rounded-full mb-2">Drama</span>
+                            <h3 class="text-xl font-bold text-white">Hamlet</h3>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-400 mb-4">
+                            Shakespeare's timeless tragedy performed by our award-winning ensemble.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <p class="text-sm text-gray-500">June 15-30, 2023</p>
+                                <p class="text-sm text-gray-500">8:00 PM</p>
+                            </div>
+                            <button class="px-4 py-2 rounded-md text-sm font-medium text-white bg-aurora-primary hover:bg-aurora-accent transition">
+                                Book Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Show Card 2 -->
+                <div class="bg-aurora-light rounded-lg overflow-hidden shadow-xl card-hover">
+                    <div class="relative h-64">
+                        <img src="https://images.unsplash.com/photo-1519519826-5396a02049b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                             alt="Jazz Night" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-4">
+                            <span class="inline-block px-3 py-1 text-xs font-semibold text-white bg-aurora-primary rounded-full mb-2">Music</span>
+                            <h3 class="text-xl font-bold text-white">Midnight Jazz</h3>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-400 mb-4">
+                            An evening of smooth jazz with the renowned Aurora Jazz Quartet.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <p class="text-sm text-gray-500">July 5, 2023</p>
+                                <p class="text-sm text-gray-500">9:30 PM</p>
+                            </div>
+                            <button class="px-4 py-2 rounded-md text-sm font-medium text-white bg-aurora-primary hover:bg-aurora-accent transition">
+                                Book Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Show Card 3 -->
+                <div class="bg-aurora-light rounded-lg overflow-hidden shadow-xl card-hover">
+                    <div class="relative h-64">
+                        <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                             alt="Contemporary Dance" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-4">
+                            <span class="inline-block px-3 py-1 text-xs font-semibold text-white bg-aurora-primary rounded-full mb-2">Dance</span>
+                            <h3 class="text-xl font-bold text-white">Ethereal Motion</h3>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-400 mb-4">
+                            A contemporary dance performance exploring human connection through movement.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <p class="text-sm text-gray-500">July 12-18, 2023</p>
+                                <p class="text-sm text-gray-500">7:30 PM</p>
+                            </div>
+                            <button class="px-4 py-2 rounded-md text-sm font-medium text-white bg-aurora-primary hover:bg-aurora-accent transition">
+                                Book Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <button class="px-6 py-3 rounded-md text-lg font-medium text-white border border-aurora-primary hover:bg-aurora-primary/20 transition">
+                    View All Shows
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Theater Experience -->
+    <section class="py-20 bg-gradient-to-b from-aurora-dark to-aurora-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:flex items-center">
+                <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
+                    <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-6">
+                        The <span class="text-aurora-accent">Aurora</span> Experience
+                    </h2>
+                    <p class="text-lg text-gray-400 mb-6">
+                        Our intimate 300-seat theater offers an unparalleled experience where every seat feels like the best in the house.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="flex items-center justify-center h-6 w-6 rounded-full bg-aurora-primary text-white">
+                                    <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <p class="ml-3 text-gray-300">State-of-the-art acoustics and lighting</p>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="flex items-center justify-center h-6 w-6 rounded-full bg-aurora-primary text-white">
+                                    <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <p class="ml-3 text-gray-300">Complimentary coat check and premium bar service</p>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="flex items-center justify-center h-6 w-6 rounded-full bg-aurora-primary text-white">
+                                    <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <p class="ml-3 text-gray-300">Accessible seating and facilities</p>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="flex items-center justify-center h-6 w-6 rounded-full bg-aurora-primary text-white">
+                                    <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <p class="ml-3 text-gray-300">Secure digital ticketing with barcode scanning</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="relative rounded-xl overflow-hidden shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a328?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                             alt="Aurora Theater Interior" class="w-full h-auto">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-6">
+                            <h3 class="text-xl font-bold text-white">Our Historic Venue</h3>
+                            <p class="text-gray-300">Originally built in 1928, our theater combines historic charm with modern amenities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ticket Booking Preview -->
+    <section class="py-20 bg-aurora-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-4">
+                    Easy <span class="text-aurora-accent">Ticket</span> Booking
+                </h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Secure your seats in just a few clicks. Here's how it works:
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <div class="text-center">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-full bg-aurora-primary text-white mx-auto mb-4">
+                        <span class="text-xl font-bold">1</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Choose Your Show</h3>
+                    <p class="text-gray-400">Browse our upcoming performances and select your preferred date and time.</p>
+                </div>
+                <div class="text-center">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-full bg-aurora-primary text-white mx-auto mb-4">
+                        <span class="text-xl font-bold">2</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Select Your Seats</h3>
+                    <p class="text-gray-400">Use our interactive seating chart to pick the perfect seats for your experience.</p>
+                </div>
+                <div class="text-center">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-full bg-aurora-primary text-white mx-auto mb-4">
+                        <span class="text-xl font-bold">3</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Receive Your Tickets</h3>
+                    <p class="text-gray-400">Get instant confirmation with digital tickets sent to your email or mobile device.</p>
+                </div>
+            </div>
+            
+            <!-- Sample Ticket -->
+            <div class="max-w-md mx-auto bg-aurora-dark rounded-xl overflow-hidden shadow-lg ticket">
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-white">Hamlet</h3>
+                            <p class="text-sm text-gray-500">June 15, 2023 • 8:00 PM</p>
+                        </div>
+                        <span class="inline-block px-3 py-1 text-xs font-semibold text-white bg-aurora-primary rounded-full">Standard</span>
+                    </div>
+                    
+                    <div class="flex items-center justify-between py-4 border-t border-b border-aurora-light/30 my-4">
+                        <div>
+                            <p class="text-sm text-gray-500">Section</p>
+                            <p class="text-white">Orchestra</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Row</p>
+                            <p class="text-white">D</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Seat</p>
+                            <p class="text-white">12</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Price</p>
+                            <p class="text-white">€45.00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex justify-between items-center mt-6">
+                        <div>
+                            <p class="text-xs text-gray-500 mb-1">Order #</p>
+                            <p class="text-sm text-white">AUR-2023-15642</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-xs text-gray-500 mb-1">Barcode</p>
+                            <div class="barcode text-2xl text-white">AUR202315642D12</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Staff Login Preview -->
+    <section class="py-20 bg-gradient-to-b from-aurora-light to-aurora-dark">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-4">
+                    Staff <span class="text-aurora-accent">Portal</span>
+                </h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Secure access for Aurora Theater staff and administrators.
+                </p>
+            </div>
+            
+            <div class="max-w-md mx-auto bg-aurora-light rounded-xl overflow-hidden shadow-lg">
+                <div class="p-8">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-white">Staff Login</h3>
+                        <p class="text-gray-400">Enter your credentials to access the staff portal</p>
+                    </div>
+                    
+                    <form>
+                        <div class="mb-4">
+                            <label for="staff-email" class="block text-sm font-medium text-gray-300 mb-2">Email Address</label>
+                            <input type="email" id="staff-email" class="w-full px-4 py-2 rounded-md bg-aurora-dark border border-aurora-light/30 text-white focus:border-aurora-primary focus:ring-aurora-primary">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="staff-password" class="block text-sm font-medium text-gray-300 mb-2">Password</label>
+                            <input type="password" id="staff-password" class="w-full px-4 py-2 rounded-md bg-aurora-dark border border-aurora-light/30 text-white focus:border-aurora-primary focus:ring-aurora-primary">
+                        </div>
+                        
+                        <button type="submit" class="w-full px-4 py-2 rounded-md text-sm font-medium text-white bg-aurora-primary hover:bg-aurora-accent transition mb-4">
+                            Sign In
+                        </button>
+                        
+                        <div class="text-center">
+                            <a href="#" class="text-sm text-aurora-primary hover:text-aurora-accent">Forgot password?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admin Dashboard Preview (Modal) -->
+    <div id="admin-modal" class="modal fixed inset-0 bg-black/80 z-50 flex items-center justify-center opacity-0 pointer-events-none">
+        <div class="modal-content bg-aurora-light rounded-xl w-full max-w-4xl max-h-[90vh] overflow-y-auto">
+            <div class="p-6">
+                <div class="flex justify-between items-center mb-6">
+                    <h3 class="text-2xl font-bold text-white">Admin Dashboard</h3>
+                    <button id="close-admin-modal" class="text-gray-400 hover:text-white">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                    <div class="bg-aurora-dark rounded-lg p-6">
+                        <h4 class="text-lg font-semibold text-white mb-2">Total Shows</h4>
+                        <p class="text-3xl font-bold text-aurora-accent">24</p>
+                    </div>
+                    <div class="bg-aurora-dark rounded-lg p-6">
+                        <h4 class="text-lg font-semibold text-white mb-2">Tickets Sold</h4>
+                        <p class="text-3xl font-bold text-aurora-accent">1,842</p>
+                    </div>
+                    <div class="bg-aurora-dark rounded-lg p-6">
+                        <h4 class="text-lg font-semibold text-white mb-2">Staff Members</h4>
+                        <p class="text-3xl font-bold text-aurora-accent">18</p>
+                    </div>
+                </div>
+                
+                <div class="mb-8">
+                    <h4 class="text-xl font-semibold text-white mb-4">Quick Actions</h4>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <button class="px-4 py-3 rounded-md text-sm font-medium text-white bg-aurora-primary hover:bg-aurora-accent transition flex items-center">
+                            <svg class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                            </svg>
+                            Add New Show
+                        </button>
+                        <button class="px-4 py-3 rounded-md text-sm font-medium text-white bg-aurora-primary hover:bg-aurora-accent transition flex items-center">
+                            <svg class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>
+                            Add Staff Member
+                        </button>
+                        <button class="px-4 py-3 rounded-md text-sm font-medium text-white bg-aurora-primary hover:bg-aurora-accent transition flex items-center">
+                            <svg class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                            Generate Reports
+                        </button>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-xl font-semibold text-white mb-4">Recent Ticket Sales</h4>
+                    <div class="bg-aurora-dark rounded-lg overflow-hidden">
+                        <table class="min-w-full divide-y divide-aurora-light/30">
+                            <thead class="bg-aurora-dark/50">
+                                <tr>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Order #</th>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Show</th>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Date</th>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Seats</th>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-aurora-light/30">
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-white">AUR-2023-15642</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-white">Hamlet</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-white">June 15, 2023</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-white">Orchestra D12</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-white">€45.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-white">AUR-2023-15641</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-white">Midnight Jazz</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-white">July 5, 2023</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-white">Balcony A3, A4</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-white">€70.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-white">AUR-2023-15640</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-white">Ethereal Motion</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-white">July 12, 2023</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-white">Orchestra C7, C8</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-white">€90.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ticket Scanner Preview -->
+    <section class="py-20 bg-aurora-dark">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-4">
+                    Ticket <span class="text-aurora-accent">Scanner</span>
+                </h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                    Staff tool for verifying tickets at the entrance.
+                </p>
+            </div>
+            
+            <div class="max-w-md mx-auto bg-aurora-light rounded-xl overflow-hidden shadow-lg">
+                <div class="p-8">
+                    <div class="text-center mb-8">
+                        <div class="inline-block p-4 bg-aurora-dark rounded-lg mb-4">
+                            <svg class="h-12 w-12 text-aurora-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white">Scan Ticket</h3>
+                        <p class="text-gray-400">Position barcode within the frame to scan</p>
+                    </div>
+                    
+                    <div class="bg-black rounded-lg overflow-hidden mb-6 h-48 flex items-center justify-center relative">
+                        <div class="absolute inset-0 border-2 border-dashed border-aurora-primary/50 m-4"></div>
+                        <div class="barcode text-4xl text-white opacity-50">AUR202315642D12</div>
+                    </div>
+                    
+                    <div class="bg-aurora-dark rounded-lg p-4 mb-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <h4 class="text-lg font-semibold text-white">Hamlet</h4>
+                            <span class="inline-block px-2 py-1 text-xs font-semibold text-white bg-green-500 rounded">Valid</span>
+                        </div>
+                        <p class="text-sm text-gray-400 mb-1">June 15, 2023 • 8:00 PM</p>
+                        <p class="text-sm text-gray-400">Orchestra D12 • Order #AUR-2023-15642</p>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <button class="px-4 py-2 rounded-md text-sm font-medium text-white bg-red-600 hover:bg-red-700 transition">
+                            Reject
+                        </button>
+                        <button class="px-4 py-2 rounded-md text-sm font-medium text-white bg-green-600 hover:bg-green-700 transition">
+                            Accept
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-aurora-dark border-t border-aurora-light/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-display font-bold text-white mb-4">AURORA</h3>
+                    <p class="text-gray-400">
+                        Bringing extraordinary performances to life in an intimate setting since 1928.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Upcoming Shows</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Gift Cards</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Membership</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Information</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Venue Rental</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Accessibility</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Contact</h4>
+                    <address class="text-gray-400 not-italic">
+                        <p class="mb-2">123 Theater Street</p>
+                        <p class="mb-2">Amsterdam, Netherlands</p>
+                        <p class="mb-4">+31 20 123 4567</p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-white transition">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-white transition">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-white transition">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </address>
+                </div>
+            </div>
+            <div class="border-t border-aurora-light/20 mt-12 pt-8 text-center text-gray-500 text-sm">
+                <p>© 2023 Aurora Theater. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal fixed inset-0 bg-black/80 z-50 flex items-center justify-center opacity-0 pointer-events-none">
+        <div class="modal-content bg-aurora-light rounded-xl w-full max-w-md">
+            <div class="p-8">
+                <div class="flex justify-between items-center mb-6">
+                    <h3 class="text-2xl font-bold text-white">Login</h3>
+                    <button id="close-login-modal" class="text-gray-400 hover:text-white">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                
+                <form>
+                    <div class="mb-4">
+                        <label for="email" class="block text-sm font-medium text-gray-300 mb-2">Email Address</label>
+                        <input type="email" id="email" class="w-full px-4 py-2 rounded-md bg-aurora-dark border border-aurora-light/30 text-white focus:border-aurora-primary focus:ring-aurora-primary">
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label for="password" class="block text-sm font-medium text-gray-300 mb-2">Password</label>
+                        <input type="password" id="password" class="w-full px-4 py-2 rounded-md bg-aurora-dark border border-aurora-light/30 text-white focus:border-aurora-primary focus:ring-aurora-primary">
+                    </div>
+                    
+                    <div class="flex items-center justify-between mb-6">
+                        <div class="flex items-center">
+                            <input id="remember-me" name="remember-me" type="checkbox" class="h-4 w-4 text-aurora-primary focus:ring-aurora-primary border-aurora-light/30 rounded">
+                            <label for="remember-me" class="ml-2 block text-sm text-gray-300">Remember me</label>
+                        </div>
+                        <a href="#" class="text-sm text-aurora-primary hover:text-aurora-accent">Forgot password?</a>
+                    </div>
+                    
+                    <button type="submit" class="w-full px-4 py-2 rounded-md text-sm font-medium text-white bg-aurora-primary hover:bg-aurora-accent transition mb-4">
+                        Sign In
+                    </button>
+                    
+                    <div class="text-center">
+                        <p class="text-sm text-gray-400">Don't have an account? <button id="switch-to-register" class="text-aurora-primary hover:text-aurora-accent">Register</button></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="register-modal" class="modal fixed inset-0 bg-black/80 z-50 flex items-center justify-center opacity-0 pointer-events-none">
+        <div class="modal-content bg-aurora-light rounded-xl w-full max-w-md">
+            <div class="p-8">
+                <div class="flex justify-between items-center mb-6">
+                    <h3 class="text-2xl font-bold text-white">Create Account</h3>
+                    <button id="close-register-modal" class="text-gray-400 hover:text-white">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                
+                <form>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                            <label for="first-name" class="block text-sm font-medium text-gray-300 mb-2">First Name</label>
+                            <input type="text" id="first-name" class="w-full px-4 py-2 rounded-md bg-aurora-dark border border-aurora-light/30 text-white focus:border-aurora-primary focus:ring-aurora-primary">
+                        </div>
+                        <div>
+                            <label for="last-name" class="block text-sm font-medium text-gray-300 mb-2">Last Name</label>
+                            <input type="text" id="last-name" class="w-full px-4 py-2 rounded-md bg-aurora-dark border border-aurora-light/30 text-white focus:border-aurora-primary focus:ring-aurora-primary">
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label for="register-email" class="block text-sm font-medium text-gray-300 mb-2">Email Address</label>
+                        <input type="email" id="register-email" class="w-full px-4 py-2 rounded-md bg-aurora-dark border border-aurora-light/30 text-white focus:border-aurora-primary focus:ring-aurora-primary">
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label for="register-password" class="block text-sm font-medium text-gray-300 mb-2">Password</label>
+                        <input type="password" id="register-password" class="w-full px-4 py-2 rounded-md bg-aurora-dark border border-aurora-light/30 text-white focus:border-aurora-primary focus:ring-aurora-primary">
+                        <p class="mt-1 text-xs text-gray-500">Minimum 8 characters with at least one number</p>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <div class="flex items-start">
+                            <div class="flex items-center h-5">
+                                <input id="terms" name="terms" type="checkbox" class="focus:ring-aurora-primary h-4 w-4 text-aurora-primary border-aurora-light/30 rounded" required>
+                            </div>
+                            <div class="ml-3 text-sm">
+                                <label for="terms" class="font-medium text-gray-300">I agree to the <a href="#" class="text-aurora-primary hover:text-aurora-accent">Terms of Service</a> and <a href="#" class="text-aurora-primary hover:text-aurora-accent">Privacy Policy</a></label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="w-full px-4 py-2 rounded-md text-sm font-medium text-white bg-aurora-primary hover:bg-aurora-accent transition mb-4">
+                        Create Account
+                    </button>
+                    
+                    <div class="text-center">
+                        <p class="text-sm text-gray-400">Already have an account? <button id="switch-to-login" class="text-aurora-primary hover:text-aurora-accent">Login</button></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Preview Button (for demo purposes) -->
+    <div class="fixed bottom-4 right-4 z-50">
+        <button id="admin-preview-btn" class="px-4 py-2 rounded-md text-sm font-medium text-white bg-aurora-primary hover:bg-aurora-accent transition shadow-lg flex items-center">
+            <svg class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+            Admin Preview
+        </button>
+    </div>
+<script src="js/script.js"></script>
+    <script>
+       
+    </script>
+</body>
+</html>

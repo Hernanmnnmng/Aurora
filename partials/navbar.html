@@ -1,0 +1,55 @@
+<!-- Navigation -->
+    <nav class="bg-aurora-dark/90 backdrop-blur-md fixed w-full z-50 border-b border-aurora-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <span class="text-2xl font-display font-bold text-aurora-accent">AURORA</span>
+                    </div>
+                    <div class="hidden md:block">
+                        <div class="ml-10 flex items-baseline space-x-4">
+                            <a href="#" class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white">Home</a>
+                            <a href="#" class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white">Shows</a>
+                            <a href="#" class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white">About</a>
+                            <a href="#" class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-4 flex items-center md:ml-6 space-x-4">
+                        <button id="login-btn" class="px-4 py-2 rounded-md text-sm font-medium text-white bg-aurora-primary hover:bg-aurora-accent transition">
+                            Login
+                        </button>
+                        <button id="register-btn" class="px-4 py-2 rounded-md text-sm font-medium text-white border border-aurora-primary hover:bg-aurora-primary/20 transition">
+                            Register
+                        </button>
+                    </div>
+                </div>
+                <div class="-mr-2 flex md:hidden">
+                    <button type="button" id="mobile-menu-btn" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-aurora-light focus:outline-none">
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-aurora-light">Home</a>
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-aurora-light">Shows</a>
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-aurora-light">About</a>
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-aurora-light">Contact</a>
+            </div>
+            <div class="pt-4 pb-3 border-t border-aurora-light px-4">
+                <button class="w-full mb-2 px-4 py-2 rounded-md text-sm font-medium text-white bg-aurora-primary hover:bg-aurora-accent transition">
+                    Login
+                </button>
+                <button class="w-full px-4 py-2 rounded-md text-sm font-medium text-white border border-aurora-primary hover:bg-aurora-primary/20 transition">
+                    Register
+                </button>
+            </div>
+        </div>
+    </nav>
