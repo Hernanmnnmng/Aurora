@@ -1,2 +1,1 @@
-# Aurora
-Hernan, Jaya, Alex &amp; Fatih
+Dont fuck nun up
